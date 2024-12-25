@@ -17,7 +17,6 @@ type Props = {
 import {
   Table,
   TableBody,
-  TableCaption,
   TableCell,
   TableHead,
   TableHeader,
