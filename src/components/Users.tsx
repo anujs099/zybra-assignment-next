@@ -168,7 +168,7 @@ const Users = (props: Props) => {
             <TableRow key={row.id}>
               {row.getVisibleCells().map((cell) => {
                 return (
-                  <TableCell id={cell.id}>
+                  <TableCell key={cell.id}>
                     {flexRender(cell.column.columnDef.cell, cell.getContext())}
                   </TableCell>
                 );
